@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEE FITNESS</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<style>
+    body{
+        padding: 0px;
+        margin: 0px;
+        background:url("gym1.jpg");
+        color: white;
+        font-family: 'Baloo Bhai 2''cursive';
+         
+    }
+    .left img{
+        width: 136px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+        line-height: 19px;
+        font-size: 20px;
+    }
+     
+    .left{ 
+     /* border: 2px solid red; */
+     display: inline-block;
+     position: absolute;
+     left: 40px;
+     top: 20px;
+    }
+    .right{
+        /* border: 2px solid green; */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 43px;
+    }
+    .mid{
+        /* border: 2px solid white; */
+        display: block; 
+        margin:  29px auto;
+        width: 45%;
+        
+        
+        
+    }
+    .navbar{
+        display: inline-block; 
+    }
+    
+       .navbar li{
+        font-size: 34px;
+        display: inline-block;
+       }
+    
+    .navbar li a{
+       color:white;
+        text-decoration: none;
+        padding: 34px 23px;
+        
+    }
+    .navbar li a:hover,.navbar li a:active{
+       text-decoration: underline;
+       color: grey;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2''cursive';
+    }
+    .btn:hover{
+        background-color: rgb(66, 55, 55);
+    }
+    .container{
+        border: 2px solid white;
+        margin: 106px 80px ;
+        padding: 75px ;
+        width:33%;
+        border-radius: 28px;
+    }
+    .form-group input{
+        text-align: center;
+        width: 700px;
+        padding: 1px;
+        display: block;
+        border: 2px solid violet;
+        margin: 11px auto;
+        border-radius: 8px;
+        font-family: 'Baloo Bhai 2''cursive';
+        font-size: 25px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        margin:  20px  auto;
+        width: 112%;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="index.webp" alt="">
+            <div>ZEE FITNESS</div>
+           
+           <!-- left box for logo --> 
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li> <a href="#">contact us</a></li>
+
+            </ul>
+         <!--mid box for navbar-->
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+            <!--right box for buttons-->
+        </div>
+
+    </header>
+    <div class="container">
+<h1>join the best gym on srinagar</h1>
+<form action="noaction.php">
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter your name">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter your address">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter your gender">
+
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="enter your locality ">
+        <button class="btn" >submit</button>
+    </div>
+</form>
+    </div>
+
+
+    
+</body>
+</html>
